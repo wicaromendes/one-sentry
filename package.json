@@ -1,6 +1,6 @@
 {
   "name": "one-sentry",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "OneSentry: Your trusted file monitoring solution. Detects modifications, triggers server restarts. Safeguard your system's integrity and stability.",
   "bin": {
     "sentry": "./bin/sentry.js"

@@ -13,7 +13,7 @@ const startServer = (OneSentryPath, OneSentryCommand) => {
     });
 };
 
-const restartServer = (OneSentryCommand) => {
+const restartServer = (OneSentryPath, OneSentryCommand) => {
     if (serverProcess) {
         console.log(chalk.yellow('[OneSentry] - Restarting server...'));
         serverProcess.kill();
