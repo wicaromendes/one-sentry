@@ -1,0 +1,21 @@
+{
+  "name": "OneSentry",
+  "version": "1.0.0",
+  "description": "OneSentry: Your trusted file monitoring solution. Detects modifications, triggers server restarts. Safeguard your system's integrity and stability.",
+  "bin": {
+    "OneSentry": "./bin/OneSentry.js"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "chokidar": "^3.5.3",
+    "cli-color": "^2.0.3",
+    "cross-spawn": "^7.0.3",
+    "find-package-json": "^1.2.0"
+  }
+}
