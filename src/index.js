@@ -8,7 +8,7 @@ const OneSentryPath = path.join(currentDirectory, 'Sentry.json');
 
 if (!fs.existsSync(OneSentryPath)) {
     console.log(chalk.red("[OneSentry] - The OneSentry configuration file was not created in the root of the project. Create the file and try again."))
-    console.log(chalk.red("[OneSentry] - Documentation: https://www.npmjs.com/package/sendrex"))
+    console.log(chalk.red("[OneSentry] - Documentation: https://github.com/wicaromendes/one-sentry"))
 }else{
     Monitoring(OneSentryPath)
 }
