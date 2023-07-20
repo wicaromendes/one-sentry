@@ -18,7 +18,7 @@ To install OneSentry, follow these steps:
 3. Run the following command to install OneSentry globally:
 
 ```bash
-npm install -g one-sentry
+npm install -g onesentry
 ```
 
 ## Usage
