@@ -1,6 +1,6 @@
 {
   "name": "one-sentry",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "OneSentry: Your trusted file monitoring solution. Detects modifications, triggers server restarts. Safeguard your system's integrity and stability.",
   "bin": {
     "sentry": "./bin/sentry.js"
@@ -16,6 +16,7 @@
     "chokidar": "^3.5.3",
     "cli-color": "^2.0.3",
     "cross-spawn": "^7.0.3",
-    "find-package-json": "^1.2.0"
+    "find-package-json": "^1.2.0",
+    "terminate": "^2.6.1"
   }
 }
